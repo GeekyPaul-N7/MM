@@ -1,18 +1,50 @@
+	// Override dom generator.
+	getDom: function() {
+		var wrapper = document.createElement("div");
+		wrapper.className = this.config.classes ? this.config.classes : "thin xlarge bright pre-line";
+		// get the compliment text 
+		var complimentText = this.randomCompliment();
+		// split it into parts on newline text 
+		var parts= complimentText.split('\n')
+		// create a span to hold it all
+		var compliment=document.createElement('span')
+                // process all the parts of the compliment text
+		for (part of parts){
+			// create a text element for each part
+			compliment.appendChild(document.createTextNode(part))
+			// add a break `
+			compliment.appendChild(document.createElement('BR'))
+		}
+		// remove the last break
+		compliment.lastElementChild.remove();
+		wrapper.appendChild(compliment);
+
+		return wrapper;
+	}
+
 {
-  "anytime": ["Hey there sexy!"],
+  "anytime": [
+    "I set fires to feel joy",
+    "I ate my twin in the womb",
+    "Flames. Flames, on the side of my face",
+    "One plus two plus two plus one",
+    "Communism was just a red herring",
+    "Dog's barking, can't fly\n without umbrella",
+    "There is a dead man,\n floating around in the river!",
+    "I mean, it's sort of exciting,zn isn't it, breaking the rules?",
+    "I've always wanted to use that spell",
+    "I love Baz\n singed Holly"
+  ],
   "morning": [
-    "Good morning, sunshine!",
-    "Who needs coffee when you have your smile?",
-    "Go get 'em, Tiger!"
+    "Good morning, sunshine!"
+
   ],
   "afternoon": [
-    "Hitting your stride!",
-    "You are making a difference!",
-    "You're more fun than bubble wrap!"
+    "Hitting your stride!"
+
   ],
   "evening": [
-    "You made someone smile today, I know it.",
-    "You are making a difference.",
-    "The day was better for your efforts."
+    "You made someone smile today, I know it."
+
   ]
 }
