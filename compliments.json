@@ -12,7 +12,7 @@
     "I love Baz\n singed Holly"
   ],
   "morning": [
-    "Good morning, sunshine!"
+    "Good morning!\n Sleep well?"
 
   ],
   "afternoon": [
@@ -22,5 +22,11 @@
   "evening": [
     "You made someone smile today, I know it."
 
-  ]
+  ],
+		"....-07-20": [
+			"Happy birthday Paul!"
+		],
+		"....-08-11": [
+			"Happy birthday Ben!"
+		]
 }
