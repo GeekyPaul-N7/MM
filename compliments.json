@@ -7,9 +7,12 @@
     "Communism was just a red herring",
     "Dog's barking, can't fly\n without umbrella",
     "There is a dead man,\n floating around in the river!",
-    "I mean, it's sort of exciting,zn isn't it, breaking the rules?",
+    "I mean, it's sort of exciting,\n isn't it, breaking the rules?",
     "I've always wanted to use that spell",
-    "I love Baz\n singed Holly"
+    "I love Baz\n singed Holly",
+    "It's dangerous to go alone!\n Take this",
+    "May the Force be with you",
+    "Do or do not. There is no try"
   ],
   "morning": [
     "Good morning!\n Sleep well?"
@@ -28,5 +31,8 @@
 		],
 		"....-08-11": [
 			"Happy birthday Ben!"
+		],
+	        "....-05-04": [
+			"May the fourth be with you!"
 		]
 }
